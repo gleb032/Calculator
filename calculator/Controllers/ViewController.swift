@@ -37,6 +37,18 @@ class ViewController: UIViewController {
     title: "x",
     color: .orange
   )
+  let deleteButton = CalculatorButton(
+    title: "AC",
+    color: .red
+  )
+  let procentButton = CalculatorButton(
+    title: "%",
+    color: .darkGrey
+  )
+  let divideButton = CalculatorButton(
+    title: "/",
+    color: .orange
+  )
   var firstButtonsView: UIView = {
     let view = UIView()
     view.translatesAutoresizingMaskIntoConstraints = false
@@ -75,7 +87,7 @@ class ViewController: UIViewController {
 
     let viewHeight = view.frame.height
     let viewWidth = view.frame.width
-    let buttonHeight = viewHeight / 12
+    let buttonHeight = viewHeight / 10
     let buttonWidth = (viewWidth - 5*10) / 4
     let dist = 10.0
 
@@ -202,7 +214,56 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
 
+    view.addSubview(deleteButton)
+    deleteButton.bottomAnchor.constraint(
+      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      constant: -dist
+    ).isActive = true
+    deleteButton.leadingAnchor.constraint(
+      equalTo: thirdButtonsView.safeAreaLayoutGuide.leadingAnchor,
+      constant: dist
+    ).isActive = true
+    deleteButton.heightAnchor.constraint(
+      equalToConstant: buttonHeight
+    ).isActive = true
+    deleteButton.widthAnchor.constraint(
+      equalToConstant: buttonWidth * 2 + dist
+    ).isActive = true
+    deleteButton.layer.cornerRadius = buttonHeight / 2
 
+    view.addSubview(procentButton)
+    procentButton.bottomAnchor.constraint(
+      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      constant: -dist
+    ).isActive = true
+    procentButton.leadingAnchor.constraint(
+      equalTo: deleteButton.trailingAnchor,
+      constant: dist
+    ).isActive = true
+    procentButton.heightAnchor.constraint(
+      equalToConstant: buttonHeight
+    ).isActive = true
+    procentButton.widthAnchor.constraint(
+      equalToConstant: buttonWidth
+    ).isActive = true
+    procentButton.layer.cornerRadius = buttonHeight / 2
+
+    view.addSubview(divideButton)
+    divideButton.bottomAnchor.constraint(
+      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      constant: -dist
+    ).isActive = true
+    divideButton.leadingAnchor.constraint(
+      equalTo: procentButton.trailingAnchor,
+      constant: dist
+    ).isActive = true
+    divideButton.heightAnchor.constraint(
+      equalToConstant: buttonHeight
+    ).isActive = true
+    divideButton.widthAnchor.constraint(
+      equalToConstant: buttonWidth
+    ).isActive = true
+    divideButton.layer.cornerRadius = buttonHeight / 2
 
   }
 

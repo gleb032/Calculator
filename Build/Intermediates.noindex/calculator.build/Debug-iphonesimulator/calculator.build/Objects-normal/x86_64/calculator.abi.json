@@ -476,6 +476,156 @@
         },
         {
           "kind": "Var",
+          "name": "deleteButton",
+          "printedName": "deleteButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC12deleteButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC12deleteButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC12deleteButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC12deleteButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "procentButton",
+          "printedName": "procentButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC13procentButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC13procentButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC13procentButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC13procentButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "divideButton",
+          "printedName": "divideButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC12divideButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC12divideButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC12divideButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC12divideButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "firstButtonsView",
           "printedName": "firstButtonsView",
           "children": [
@@ -496,7 +646,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 7,
+          "fixedbinaryorder": 10,
           "hasStorage": true,
           "accessors": [
             {
@@ -587,7 +737,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 8,
+          "fixedbinaryorder": 11,
           "hasStorage": true,
           "accessors": [
             {
@@ -678,7 +828,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 9,
+          "fixedbinaryorder": 12,
           "hasStorage": true,
           "accessors": [
             {
@@ -2636,6 +2786,44 @@
           "mangledName": "$s10calculator11ButtonColorO6orangeyA2CmF",
           "moduleName": "calculator",
           "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "red",
+          "printedName": "red",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.ButtonColor.Type) -> calculator.ButtonColor",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ButtonColor",
+                  "printedName": "calculator.ButtonColor",
+                  "usr": "s:10calculator11ButtonColorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.ButtonColor.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ButtonColor",
+                      "printedName": "calculator.ButtonColor",
+                      "usr": "s:10calculator11ButtonColorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator11ButtonColorO3redyA2CmF",
+          "mangledName": "$s10calculator11ButtonColorO3redyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 2
         },
         {
           "kind": "Function",

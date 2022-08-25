@@ -20,6 +20,8 @@ class CalculatorButton: UIButton {
       self.backgroundColor = .darkGray
     case .orange:
       self.backgroundColor = .orange
+    case .red:
+      self.backgroundColor = .red
     }
     self.setTitle(title, for: .normal)
   }
@@ -31,5 +33,5 @@ class CalculatorButton: UIButton {
 }
 
 enum ButtonColor {
-  case darkGrey, orange
+  case darkGrey, orange, red
 }
