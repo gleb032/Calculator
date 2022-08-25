@@ -1,0 +1,63 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c82fc881b794d33b7eede9173569be2e2f8c8702f78fdf5e524afc776128e774"
+    }
+  ],
+  "containerPath" : "/Users/glebfandeev/Desktop/Gleb/calculator/calculator.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/glebfandeev/Desktop/Gleb/calculator/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/glebfandeev/Desktop/Gleb/calculator/Build/Products",
+      "derivedDataPath" : "/Users/glebfandeev/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/glebfandeev/Library/Developer/Xcode/DerivedData/calculator-gdbbjnupqpphkthblornoyambxwk/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/glebfandeev/Library/Developer/Xcode/DerivedData/calculator-gdbbjnupqpphkthblornoyambxwk/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/glebfandeev/Desktop/Gleb/calculator/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "F5BC91DE-93B4-4FF1-9C22-572B7093637C",
+          "TARGET_DEVICE_MODEL" : "iPhone14,2",
+          "TARGET_DEVICE_OS_VERSION" : "15.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,2772 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "calculator",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "numberButton",
+          "printedName": "numberButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[calculator.CalculatorButton]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvp",
+          "mangledName": "$s10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[calculator.CalculatorButton]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CalculatorButton",
+                      "printedName": "calculator.CalculatorButton",
+                      "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvg",
+              "mangledName": "$s10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[calculator.CalculatorButton]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CalculatorButton",
+                      "printedName": "calculator.CalculatorButton",
+                      "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvs",
+              "mangledName": "$s10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvM",
+              "mangledName": "$s10calculator14ViewControllerC12numberButtonSayAA010CalculatorE0CGvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "currentCalculation",
+          "printedName": "currentCalculation",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Calculation",
+              "printedName": "calculator.Calculation",
+              "usr": "s:10calculator11CalculationV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC18currentCalculationAA0E0Vvp",
+          "mangledName": "$s10calculator14ViewControllerC18currentCalculationAA0E0Vvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Calculation",
+                  "printedName": "calculator.Calculation",
+                  "usr": "s:10calculator11CalculationV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC18currentCalculationAA0E0Vvg",
+              "mangledName": "$s10calculator14ViewControllerC18currentCalculationAA0E0Vvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Calculation",
+                  "printedName": "calculator.Calculation",
+                  "usr": "s:10calculator11CalculationV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC18currentCalculationAA0E0Vvs",
+              "mangledName": "$s10calculator14ViewControllerC18currentCalculationAA0E0Vvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC18currentCalculationAA0E0VvM",
+              "mangledName": "$s10calculator14ViewControllerC18currentCalculationAA0E0VvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "commaButton",
+          "printedName": "commaButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC11commaButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC11commaButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC11commaButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC11commaButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "equalButton",
+          "printedName": "equalButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC11equalButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC11equalButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC11equalButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC11equalButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "plusButton",
+          "printedName": "plusButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC10plusButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC10plusButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC10plusButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC10plusButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "minusButton",
+          "printedName": "minusButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC11minusButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC11minusButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC11minusButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC11minusButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "multiptyButton",
+          "printedName": "multiptyButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC14multiptyButtonAA010CalculatorE0Cvp",
+          "mangledName": "$s10calculator14ViewControllerC14multiptyButtonAA010CalculatorE0Cvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC14multiptyButtonAA010CalculatorE0Cvg",
+              "mangledName": "$s10calculator14ViewControllerC14multiptyButtonAA010CalculatorE0Cvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "firstButtonsView",
+          "printedName": "firstButtonsView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC012firstButtonsB0So6UIViewCvp",
+          "mangledName": "$s10calculator14ViewControllerC012firstButtonsB0So6UIViewCvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012firstButtonsB0So6UIViewCvg",
+              "mangledName": "$s10calculator14ViewControllerC012firstButtonsB0So6UIViewCvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012firstButtonsB0So6UIViewCvs",
+              "mangledName": "$s10calculator14ViewControllerC012firstButtonsB0So6UIViewCvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012firstButtonsB0So6UIViewCvM",
+              "mangledName": "$s10calculator14ViewControllerC012firstButtonsB0So6UIViewCvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "secondButtonsView",
+          "printedName": "secondButtonsView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC013secondButtonsB0So6UIViewCvp",
+          "mangledName": "$s10calculator14ViewControllerC013secondButtonsB0So6UIViewCvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC013secondButtonsB0So6UIViewCvg",
+              "mangledName": "$s10calculator14ViewControllerC013secondButtonsB0So6UIViewCvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC013secondButtonsB0So6UIViewCvs",
+              "mangledName": "$s10calculator14ViewControllerC013secondButtonsB0So6UIViewCvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC013secondButtonsB0So6UIViewCvM",
+              "mangledName": "$s10calculator14ViewControllerC013secondButtonsB0So6UIViewCvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "thirdButtonsView",
+          "printedName": "thirdButtonsView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvp",
+          "mangledName": "$s10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvg",
+              "mangledName": "$s10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvs",
+              "mangledName": "$s10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvM",
+              "mangledName": "$s10calculator14ViewControllerC012thirdButtonsB0So6UIViewCvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s10calculator14ViewControllerC11viewDidLoadyyF",
+          "moduleName": "calculator",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "calculator.ViewController",
+              "usr": "c:@M@calculator@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s10calculator14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "calculator.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "calculator.ViewController",
+                  "usr": "c:@M@calculator@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s10calculator14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@calculator@objc(cs)ViewController",
+      "mangledName": "$s10calculator14ViewControllerC",
+      "moduleName": "calculator",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "calculator",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s10calculator11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s10calculator11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s10calculator11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10calculator11AppDelegateC5$mainyyFZ",
+          "mangledName": "$s10calculator11AppDelegateC5$mainyyFZ",
+          "moduleName": "calculator",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "calculator.AppDelegate",
+              "usr": "c:@M@calculator@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s10calculator11AppDelegateCACycfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@calculator@objc(cs)AppDelegate",
+      "mangledName": "$s10calculator11AppDelegateC",
+      "moduleName": "calculator",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "calculator",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s10calculator13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s10calculator13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s10calculator13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s10calculator13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s10calculator13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s10calculator13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s10calculator13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s10calculator13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s10calculator13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s10calculator13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "calculator",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "calculator.SceneDelegate",
+              "usr": "c:@M@calculator@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s10calculator13SceneDelegateCACycfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@calculator@objc(cs)SceneDelegate",
+      "mangledName": "$s10calculator13SceneDelegateC",
+      "moduleName": "calculator",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "calculator",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Calculation",
+      "printedName": "Calculation",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "firstNumber",
+          "printedName": "firstNumber",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator11CalculationV11firstNumberSdvp",
+          "mangledName": "$s10calculator11CalculationV11firstNumberSdvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV11firstNumberSdvg",
+              "mangledName": "$s10calculator11CalculationV11firstNumberSdvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV11firstNumberSdvs",
+              "mangledName": "$s10calculator11CalculationV11firstNumberSdvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV11firstNumberSdvM",
+              "mangledName": "$s10calculator11CalculationV11firstNumberSdvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "secondNumber",
+          "printedName": "secondNumber",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator11CalculationV12secondNumberSdSgvp",
+          "mangledName": "$s10calculator11CalculationV12secondNumberSdSgvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV12secondNumberSdSgvg",
+              "mangledName": "$s10calculator11CalculationV12secondNumberSdSgvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV12secondNumberSdSgvs",
+              "mangledName": "$s10calculator11CalculationV12secondNumberSdSgvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV12secondNumberSdSgvM",
+              "mangledName": "$s10calculator11CalculationV12secondNumberSdSgvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "operation",
+          "printedName": "operation",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "calculator.Operation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator11CalculationV9operationAA9OperationOSgvp",
+          "mangledName": "$s10calculator11CalculationV9operationAA9OperationOSgvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "calculator.Operation?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV9operationAA9OperationOSgvg",
+              "mangledName": "$s10calculator11CalculationV9operationAA9OperationOSgvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "calculator.Operation?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV9operationAA9OperationOSgvs",
+              "mangledName": "$s10calculator11CalculationV9operationAA9OperationOSgvs",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11CalculationV9operationAA9OperationOSgvM",
+              "mangledName": "$s10calculator11CalculationV9operationAA9OperationOSgvM",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(firstNumber:secondNumber:operation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Calculation",
+              "printedName": "calculator.Calculation",
+              "usr": "s:10calculator11CalculationV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "hasDefaultArg": true,
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "calculator.Operation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10calculator11CalculationV11firstNumber06secondD09operationACSd_SdSgAA9OperationOSgtcfc",
+          "mangledName": "$s10calculator11CalculationV11firstNumber06secondD09operationACSd_SdSgAA9OperationOSgtcfc",
+          "moduleName": "calculator",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Calculation",
+              "printedName": "calculator.Calculation",
+              "usr": "s:10calculator11CalculationV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10calculator11CalculationVACycfc",
+          "mangledName": "$s10calculator11CalculationVACycfc",
+          "moduleName": "calculator",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10calculator11CalculationV",
+      "mangledName": "$s10calculator11CalculationV",
+      "moduleName": "calculator",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Operation",
+      "printedName": "Operation",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "add",
+          "printedName": "add",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.Operation.Type) -> calculator.Operation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.Operation.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator9OperationO3addyA2CmF",
+          "mangledName": "$s10calculator9OperationO3addyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "subtract",
+          "printedName": "subtract",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.Operation.Type) -> calculator.Operation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.Operation.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator9OperationO8subtractyA2CmF",
+          "mangledName": "$s10calculator9OperationO8subtractyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "multiply",
+          "printedName": "multiply",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.Operation.Type) -> calculator.Operation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.Operation.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator9OperationO8multiplyyA2CmF",
+          "mangledName": "$s10calculator9OperationO8multiplyyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "divide",
+          "printedName": "divide",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.Operation.Type) -> calculator.Operation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Operation",
+                  "printedName": "calculator.Operation",
+                  "usr": "s:10calculator9OperationO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.Operation.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Operation",
+                      "printedName": "calculator.Operation",
+                      "usr": "s:10calculator9OperationO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator9OperationO6divideyA2CmF",
+          "mangledName": "$s10calculator9OperationO6divideyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Operation",
+              "printedName": "calculator.Operation",
+              "usr": "s:10calculator9OperationO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Operation",
+              "printedName": "calculator.Operation",
+              "usr": "s:10calculator9OperationO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10calculator9OperationO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s10calculator9OperationO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "calculator",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Implements"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator9OperationO9hashValueSivp",
+          "mangledName": "$s10calculator9OperationO9hashValueSivp",
+          "moduleName": "calculator",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator9OperationO9hashValueSivg",
+              "mangledName": "$s10calculator9OperationO9hashValueSivg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10calculator9OperationO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s10calculator9OperationO4hash4intoys6HasherVz_tF",
+          "moduleName": "calculator",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:10calculator9OperationO",
+      "mangledName": "$s10calculator9OperationO",
+      "moduleName": "calculator",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "calculator",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CalculatorButton",
+      "printedName": "CalculatorButton",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)CalculatorButton(im)initWithFrame:",
+          "mangledName": "$s10calculator16CalculatorButtonC5frameACSo6CGRectV_tcfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:color:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CalculatorButton",
+              "printedName": "calculator.CalculatorButton",
+              "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ButtonColor",
+              "printedName": "calculator.ButtonColor",
+              "usr": "s:10calculator11ButtonColorO"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10calculator16CalculatorButtonC5title5colorACSS_AA0C5ColorOtcfc",
+          "mangledName": "$s10calculator16CalculatorButtonC5title5colorACSS_AA0C5ColorOtcfc",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "Convenience"
+          ],
+          "init_kind": "Convenience"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "calculator.CalculatorButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CalculatorButton",
+                  "printedName": "calculator.CalculatorButton",
+                  "usr": "c:@M@calculator@objc(cs)CalculatorButton"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@calculator@objc(cs)CalculatorButton(im)initWithCoder:",
+          "mangledName": "$s10calculator16CalculatorButtonC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "calculator",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@calculator@objc(cs)CalculatorButton",
+      "mangledName": "$s10calculator16CalculatorButtonC",
+      "moduleName": "calculator",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIButton",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIButton",
+        "UIKit.UIControl",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ButtonColor",
+      "printedName": "ButtonColor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "darkGrey",
+          "printedName": "darkGrey",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.ButtonColor.Type) -> calculator.ButtonColor",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ButtonColor",
+                  "printedName": "calculator.ButtonColor",
+                  "usr": "s:10calculator11ButtonColorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.ButtonColor.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ButtonColor",
+                      "printedName": "calculator.ButtonColor",
+                      "usr": "s:10calculator11ButtonColorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator11ButtonColorO8darkGreyyA2CmF",
+          "mangledName": "$s10calculator11ButtonColorO8darkGreyyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "orange",
+          "printedName": "orange",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(calculator.ButtonColor.Type) -> calculator.ButtonColor",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ButtonColor",
+                  "printedName": "calculator.ButtonColor",
+                  "usr": "s:10calculator11ButtonColorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "calculator.ButtonColor.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ButtonColor",
+                      "printedName": "calculator.ButtonColor",
+                      "usr": "s:10calculator11ButtonColorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10calculator11ButtonColorO6orangeyA2CmF",
+          "mangledName": "$s10calculator11ButtonColorO6orangeyA2CmF",
+          "moduleName": "calculator",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ButtonColor",
+              "printedName": "calculator.ButtonColor",
+              "usr": "s:10calculator11ButtonColorO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ButtonColor",
+              "printedName": "calculator.ButtonColor",
+              "usr": "s:10calculator11ButtonColorO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10calculator11ButtonColorO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s10calculator11ButtonColorO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "calculator",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Implements"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator11ButtonColorO9hashValueSivp",
+          "mangledName": "$s10calculator11ButtonColorO9hashValueSivp",
+          "moduleName": "calculator",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator11ButtonColorO9hashValueSivg",
+              "mangledName": "$s10calculator11ButtonColorO9hashValueSivg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10calculator11ButtonColorO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s10calculator11ButtonColorO4hash4intoys6HasherVz_tF",
+          "moduleName": "calculator",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:10calculator11ButtonColorO",
+      "mangledName": "$s10calculator11ButtonColorO",
+      "moduleName": "calculator",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

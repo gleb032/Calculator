@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1661361685, 649420976]
+build_end_time: [1661361686, 539859056]
+inputs:
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/AppDelegate.swift": [1661353814, 623845577]
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/SceneDelegate.swift": [1661361682, 117289066]
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/ViewController.swift": [1661361682, 79688310]
