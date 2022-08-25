@@ -17,3 +17,5 @@ struct Calculation {
 enum Operation {
   case add, subtract, multiply, divide
 }
+
+// Operation logic here ? 

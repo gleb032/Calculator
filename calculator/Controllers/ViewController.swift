@@ -5,9 +5,14 @@
 //  Created by Gleb Fandeev on 24.08.2022.
 //
 
+// MARK: this is a draft version
+
 // TODO: refactor and structurize code
-// TODO: add top line of bottoms (think about which buttons to add and their layout) 
-/// this is a draft version
+// TODO: add top line of bottoms (think about which buttons to add and their layout)
+// TODO: add actions and think about calculations logic
+// TODO: think about errors and its animations (ex. divide by 0)
+// Big View Controller: need to pop up some stuff
+// to Custom View Class and think about sizes and so on.
 
 import UIKit
 
@@ -49,6 +54,16 @@ class ViewController: UIViewController {
     title: "/",
     color: .orange
   )
+  let calculationsLabel: UILabel = {
+    let label = UILabel()
+    label.translatesAutoresizingMaskIntoConstraints = false
+    label.isEnabled = false
+    label.text = "0"
+    label.textColor = .white
+    label.textAlignment = .right
+    label.font = .boldSystemFont(ofSize: 50)
+    return label
+  }()
   var firstButtonsView: UIView = {
     let view = UIView()
     view.translatesAutoresizingMaskIntoConstraints = false
@@ -70,7 +85,11 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .black
+    let viewHeight = view.frame.height
+    let labelHeight = viewHeight / 10
+    let dist = 10.0
     setUpButtonsLayout()
+    setUpLabelLayout(labelHeight: labelHeight, dist: dist)
   }
 
   private func setUpButtonsLayout() {
@@ -216,11 +235,11 @@ class ViewController: UIViewController {
 
     view.addSubview(deleteButton)
     deleteButton.bottomAnchor.constraint(
-      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      equalTo: thirdButtonsView.topAnchor,
       constant: -dist
     ).isActive = true
     deleteButton.leadingAnchor.constraint(
-      equalTo: thirdButtonsView.safeAreaLayoutGuide.leadingAnchor,
+      equalTo: view.leadingAnchor,
       constant: dist
     ).isActive = true
     deleteButton.heightAnchor.constraint(
@@ -233,7 +252,7 @@ class ViewController: UIViewController {
 
     view.addSubview(procentButton)
     procentButton.bottomAnchor.constraint(
-      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      equalTo: thirdButtonsView.topAnchor,
       constant: -dist
     ).isActive = true
     procentButton.leadingAnchor.constraint(
@@ -250,7 +269,7 @@ class ViewController: UIViewController {
 
     view.addSubview(divideButton)
     divideButton.bottomAnchor.constraint(
-      equalTo: thirdButtonsView.safeAreaLayoutGuide.topAnchor,
+      equalTo: thirdButtonsView.topAnchor,
       constant: -dist
     ).isActive = true
     divideButton.leadingAnchor.constraint(
@@ -267,7 +286,7 @@ class ViewController: UIViewController {
 
   }
 
-  // MARK: 4 buttons inline !!!
+  // MARK: 4 buttons inline // Or do with at least one button with size param?
   private func setUpButtonsLine(
     _ buttons: [UIButton],
     viewHeight: CGFloat,
@@ -305,6 +324,35 @@ class ViewController: UIViewController {
     }
 
     return view
+  }
+
+  private func setUpLabelLayout(
+    labelHeight: CGFloat,
+    dist: CGFloat
+  ) {
+    view.addSubview(calculationsLabel)
+    calculationsLabel.leadingAnchor.constraint(
+      equalTo: view.leadingAnchor,
+      constant: dist*2
+    ).isActive = true
+    calculationsLabel.trailingAnchor.constraint(
+      equalTo: view.trailingAnchor,
+      constant: -dist*2
+    ).isActive = true
+    calculationsLabel.heightAnchor.constraint(equalToConstant: labelHeight)
+      .isActive = true
+    calculationsLabel.bottomAnchor.constraint(
+      equalTo: deleteButton.topAnchor,
+      constant: -dist
+    ).isActive = true
+  }
+
+  @objc private func tapOnNumber(_ sender: Any) {
+    if calculationsLabel.text == "0" {
+      calculationsLabel.text = "5"
+    } else {
+      calculationsLabel.text! += "5" // always have smth
+    }
   }
 
 }

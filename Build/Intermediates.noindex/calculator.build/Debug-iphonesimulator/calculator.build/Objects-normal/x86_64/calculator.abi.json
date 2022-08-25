@@ -626,6 +626,56 @@
         },
         {
           "kind": "Var",
+          "name": "calculationsLabel",
+          "printedName": "calculationsLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UILabel",
+              "printedName": "UIKit.UILabel",
+              "usr": "c:objc(cs)UILabel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10calculator14ViewControllerC17calculationsLabelSo7UILabelCvp",
+          "mangledName": "$s10calculator14ViewControllerC17calculationsLabelSo7UILabelCvp",
+          "moduleName": "calculator",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10calculator14ViewControllerC17calculationsLabelSo7UILabelCvg",
+              "mangledName": "$s10calculator14ViewControllerC17calculationsLabelSo7UILabelCvg",
+              "moduleName": "calculator",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "firstButtonsView",
           "printedName": "firstButtonsView",
           "children": [
@@ -646,7 +696,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 10,
+          "fixedbinaryorder": 11,
           "hasStorage": true,
           "accessors": [
             {
@@ -737,7 +787,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 11,
+          "fixedbinaryorder": 12,
           "hasStorage": true,
           "accessors": [
             {
@@ -828,7 +878,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 12,
+          "fixedbinaryorder": 13,
           "hasStorage": true,
           "accessors": [
             {
