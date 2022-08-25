@@ -92,7 +92,7 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
     numberButton[0].widthAnchor.constraint(
-      equalToConstant: buttonWidth * 2
+      equalToConstant: buttonWidth * 2 + dist
     ).isActive = true
     numberButton[0].layer.cornerRadius = buttonHeight / 2
 

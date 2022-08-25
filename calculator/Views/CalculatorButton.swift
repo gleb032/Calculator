@@ -23,17 +23,6 @@ class CalculatorButton: UIButton {
     }
     self.setTitle(title, for: .normal)
   }
-//  init(title: String, color: ButtonColor) {
-//    super.init(frame: .zero)
-//    self.translatesAutoresizingMaskIntoConstraints = false
-//    switch color {
-//    case .darkGrey:
-//      self.backgroundColor = .darkGray
-//    case .orange:
-//      self.backgroundColor = .orange
-//    }
-//    self.setTitle(title, for: .normal)
-//  }
 
   required init?(coder: NSCoder) {
     super.init(coder: coder)
