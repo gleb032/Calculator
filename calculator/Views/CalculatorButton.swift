@@ -24,14 +24,11 @@ class CalculatorButton: UIButton {
       self.backgroundColor = .red
     }
     self.setTitle(title, for: .normal)
+    self.titleLabel?.adjustsFontSizeToFitWidth = true
   }
 
   required init?(coder: NSCoder) {
     super.init(coder: coder)
     fatalError("init(coder:) has not been implemented")
   }
-}
-
-enum ButtonColor {
-  case darkGrey, orange, red
 }

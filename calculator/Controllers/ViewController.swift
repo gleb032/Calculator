@@ -11,6 +11,8 @@
 // TODO: add top line of bottoms (think about which buttons to add and their layout)
 // TODO: add actions and think about calculations logic
 // TODO: think about errors and its animations (ex. divide by 0)
+// TODO: operations map: operation["="] -> CalculatorButton(...)
+// TODO: Think about return non Optional value from above map
 // Big View Controller: need to pop up some stuff
 // to Custom View Class and think about sizes and so on.
 
@@ -22,38 +24,8 @@ class ViewController: UIViewController {
 
   var currentCalculation = Calculation()
 
-  let commaButton = CalculatorButton(
-    title: ",",
-    color: .darkGrey
-  )
-  let equalButton = CalculatorButton(
-    title: "=",
-    color: .orange
-  )
-  let plusButton = CalculatorButton(
-    title: "+",
-    color: .orange
-  )
-  let minusButton = CalculatorButton(
-    title: "-",
-    color: .orange
-  )
-  let multiptyButton = CalculatorButton(
-    title: "x",
-    color: .orange
-  )
-  let deleteButton = CalculatorButton(
-    title: "AC",
-    color: .red
-  )
-  let procentButton = CalculatorButton(
-    title: "%",
-    color: .darkGrey
-  )
-  let divideButton = CalculatorButton(
-    title: "/",
-    color: .orange
-  )
+  var operationButton = [String : CalculatorButton]()
+
   let calculationsLabel: UILabel = {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
@@ -104,6 +76,13 @@ class ViewController: UIViewController {
       ))
     }
 
+    for operation in operations {
+      operationButton[operation] = CalculatorButton(
+        title: operation,
+        color: operationColor[operation] ?? .darkGrey
+      )
+    }
+
     let viewHeight = view.frame.height
     let viewWidth = view.frame.width
     let buttonHeight = viewHeight / 10
@@ -127,23 +106,29 @@ class ViewController: UIViewController {
     ).isActive = true
     numberButton[0].layer.cornerRadius = buttonHeight / 2
 
+    guard let commaButton = operationButton[","] else {
+      fatalError("Comma button doesnt exist")
+    }
     view.addSubview(commaButton)
-    commaButton.bottomAnchor.constraint(
+    operationButton[","]?.bottomAnchor.constraint(
       equalTo: view.safeAreaLayoutGuide.bottomAnchor,
       constant: -dist
     ).isActive = true
-    commaButton.leadingAnchor.constraint(
+    operationButton[","]?.leadingAnchor.constraint(
       equalTo: numberButton[0].trailingAnchor,
       constant: dist
     ).isActive = true
-    commaButton.heightAnchor.constraint(
+    operationButton[","]?.heightAnchor.constraint(
       equalToConstant: buttonHeight
     ).isActive = true
-    commaButton.widthAnchor.constraint(
+    operationButton[","]?.widthAnchor.constraint(
       equalToConstant: buttonWidth
     ).isActive = true
-    commaButton.layer.cornerRadius = buttonHeight / 2
+    operationButton[","]?.layer.cornerRadius = buttonHeight / 2
 
+    guard let equalButton = operationButton["="] else {
+      fatalError("Equal button doesnt exist")
+    }
     view.addSubview(equalButton)
     equalButton.bottomAnchor.constraint(
       equalTo: view.safeAreaLayoutGuide.bottomAnchor,
@@ -161,6 +146,9 @@ class ViewController: UIViewController {
     ).isActive = true
     equalButton.layer.cornerRadius = buttonHeight / 2
 
+    guard let plusButton = operationButton["+"] else {
+      fatalError("Plus button doesnt exist")
+    }
     firstButtonsView = setUpButtonsLine(
       [numberButton[1], numberButton[2], numberButton[3], plusButton],
       viewHeight: viewHeight,
@@ -185,6 +173,9 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
 
+    guard let minusButton = operationButton["-"] else {
+      fatalError("Minus button doesnt exist")
+    }
     secondButtonsView = setUpButtonsLine(
       [numberButton[4], numberButton[5], numberButton[6], minusButton],
       viewHeight: viewHeight,
@@ -209,6 +200,9 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
 
+    guard let multiptyButton = operationButton["×"] else {
+      fatalError("Multipty button doesnt exist")
+    }
     thirdButtonsView = setUpButtonsLine(
       [numberButton[7], numberButton[8], numberButton[9], multiptyButton],
       viewHeight: viewHeight,
@@ -233,6 +227,9 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
 
+    guard let deleteButton = operationButton["AC"] else {
+      fatalError("Multipty button doesnt exist")
+    }
     view.addSubview(deleteButton)
     deleteButton.bottomAnchor.constraint(
       equalTo: thirdButtonsView.topAnchor,
@@ -250,6 +247,9 @@ class ViewController: UIViewController {
     ).isActive = true
     deleteButton.layer.cornerRadius = buttonHeight / 2
 
+    guard let procentButton = operationButton["%"] else {
+      fatalError("Procent button doesnt exist")
+    }
     view.addSubview(procentButton)
     procentButton.bottomAnchor.constraint(
       equalTo: thirdButtonsView.topAnchor,
@@ -267,6 +267,9 @@ class ViewController: UIViewController {
     ).isActive = true
     procentButton.layer.cornerRadius = buttonHeight / 2
 
+    guard let divideButton = operationButton["/"] else {
+      fatalError("Procent button doesnt exist")
+    }
     view.addSubview(divideButton)
     divideButton.bottomAnchor.constraint(
       equalTo: thirdButtonsView.topAnchor,
@@ -330,6 +333,9 @@ class ViewController: UIViewController {
     labelHeight: CGFloat,
     dist: CGFloat
   ) {
+    guard let deleteButton = operationButton["AC"] else {
+      fatalError("Delete button doesnt exist")
+    }
     view.addSubview(calculationsLabel)
     calculationsLabel.leadingAnchor.constraint(
       equalTo: view.leadingAnchor,
