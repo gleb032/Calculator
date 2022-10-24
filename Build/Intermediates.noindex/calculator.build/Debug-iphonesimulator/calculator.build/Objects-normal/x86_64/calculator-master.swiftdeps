@@ -1,11 +1,11 @@
-version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
-options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1661500772, 208237171]
-build_end_time: [1661500773, 217182159]
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "0b3fa49ac8337cf713a66059c6b89c07d53255b39e170e70d5b259b723f48c44"
+build_start_time: [1666641854, 930299997]
+build_end_time: [1666641859, 856713056]
 inputs:
   "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/AppDelegate.swift": [1661353814, 623845577]
-  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Controllers/ViewController.swift": [1661500771, 970475196]
-  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Models/CurrentCalculationModel.swift": [1661499255, 959005355]
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Controllers/ViewController.swift": [1662473341, 287054777]
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Models/CurrentCalculationModel.swift": [1661711303, 211138010]
   "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Models/Operations+Colors.swift": [1661500127, 566552162]
   "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/SceneDelegate.swift": [1661361682, 117289066]
-  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Views/CalculatorButton.swift": [1661500127, 702403306]
+  "/Users/glebfandeev/Desktop/Gleb/calculator/calculator/Views/CalculatorButton.swift": [1661757518, 849784851]

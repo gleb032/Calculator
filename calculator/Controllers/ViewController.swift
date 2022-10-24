@@ -69,11 +69,13 @@ class ViewController: UIViewController {
       title: "0",
       color: .darkGrey
     ))
+    numberButton.last!.addTarget(self, action: #selector(tapOnNumber(_:)), for: .touchUpInside)
     for number in 1...9 {
       numberButton.append(CalculatorButton(
         title: String(number),
         color: .darkGrey
       ))
+      numberButton.last!.addTarget(self, action: #selector(tapOnNumber(_:)), for: .touchUpInside)
     }
 
     for operation in operations {
@@ -227,6 +229,8 @@ class ViewController: UIViewController {
       equalToConstant: buttonHeight
     ).isActive = true
 
+
+    // TODO: make it in view (think about fabric func)
     guard let deleteButton = operationButton["AC"] else {
       fatalError("Multipty button doesnt exist")
     }
@@ -329,6 +333,8 @@ class ViewController: UIViewController {
     return view
   }
 
+
+  // TODO: make View for last button line and constraint label with this view
   private func setUpLabelLayout(
     labelHeight: CGFloat,
     dist: CGFloat
@@ -353,12 +359,48 @@ class ViewController: UIViewController {
     ).isActive = true
   }
 
-  @objc private func tapOnNumber(_ sender: Any) {
-    if calculationsLabel.text == "0" {
-      calculationsLabel.text = "5"
-    } else {
-      calculationsLabel.text! += "5" // always have smth
+  // TODO: make this method
+  @objc private func tapOnNumber(_ sender: CalculatorButton) {
+    calculationsLabel.text! += sender.title(for: .normal) ?? ""
+  }
+
+  @objc private func tapOnDeleteButton(_ sender: Any) {
+    currentCalculation.firstNumber = 0
+    currentCalculation.newCalculation()
+  }
+
+  // TODO: Optimize it ?
+  @objc private func tapOnOperationButton(_ sender: CalculatorButton) {
+    let button: Button
+    switch sender.titleLabel?.text {
+    case "=":
+      button = .equal
+      break
+    case "+":
+      button = .operation(.add)
+      break
+    case "-":
+      button = .operation(.subtract)
+      break
+    case "/":
+      button = .operation(.divide)
+      break
+    case "×":
+      button = .operation(.multiply)
+      break
+    case "%":
+      button = .operation(.procent)
+      break
+    default:
+      fatalError("Something went wrong")
     }
+    currentCalculation.doOperation(button: button)
+    currentCalculation.newCalculation()
+  }
+
+  // TODO: make logic for reloading UI after some operations
+  private func reloadUIWithCalculationInfo() {
+    
   }
 
 }

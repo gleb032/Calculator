@@ -16,13 +16,13 @@ struct Calculation {
   mutating func doOperation(button: Button) {
     switch button {
     case .number(let num):
-      if let _ = operation {
-        secondNumber = num
-        break
-      }
       if let x = secondNumber {
         secondNumber = x * 10 + num
       } else {
+        if let _ = operation {
+          secondNumber = num
+          break
+        }
         firstNumber = firstNumber * 10 + num
       }
     case .operation(let operation):
@@ -31,7 +31,7 @@ struct Calculation {
       firstNumber = getResult(operation: operation)
     }
   }
-  func getResult(operation: Operation?) -> Double {
+  private mutating func getResult(operation: Operation?) -> Double {
     guard let operation = operation else {
       return firstNumber
     }
@@ -43,16 +43,23 @@ struct Calculation {
     }
     switch operation {
     case .add:
-      return firstNumber + secondNumber
+      firstNumber+=secondNumber
     case .subtract:
-      return firstNumber - secondNumber
+      firstNumber-=secondNumber
     case .multiply:
-      return firstNumber * secondNumber
+      firstNumber *= secondNumber
     case .divide:
-      return firstNumber / secondNumber
+      firstNumber /= secondNumber
     case .procent:
       fatalError("Something went wrong")
     }
+    newCalculation()
+    return firstNumber
+  }
+
+  mutating func newCalculation() {
+    secondNumber = nil
+    operation = nil
   }
 
 }
